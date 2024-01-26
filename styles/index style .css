@@ -2,9 +2,20 @@ body {
   background-color: #3c40c6;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+iframe {
+  border: 1px solid;
+  border-radius: 2%;
+  width: 95%;
+  margin: 5px;
+}
+
 span {
-  margin: 10px;
-  padding: 10px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -13,8 +24,10 @@ span {
 
 div {
   width: 26%;
-  height: 200px;
+  height: 160px;
+  padding: 10px 10px 30px;
   border: 1px solid white;
   border-radius: 2%;
   background-color: whitesmoke;
+  text-align: left;
 }
